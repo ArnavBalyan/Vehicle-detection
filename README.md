@@ -9,6 +9,8 @@ Vehicle detection using these machine learning and computer vision techniques.
 * Histogram of color extraction
 * Sliding Window
 
+A class of objects such as a vehicle vary so much in color. Structural cues like shape give a more robust representation. Gradients of specific directions captures some notion of shape. To allow for some variability in shape, we’ll use features known as Histogram of Oriented Gradients (HOG).
+
 ## Note
 
 First, you need to get training data(cars and not-cars). You can get car images from [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html), [KITTI vision benchmark](http://www.cvlibs.net/datasets/kitti/)). And over 1500 images per each is good for this project.
