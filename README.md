@@ -1,7 +1,8 @@
 
 # Vehicle Detection
-Vehicle detection using these machine learning and computer vision techniques.
+Vehicle detection based computer vision is the essential algorithm in autonomous driving, aims at identifying which locating vehicles by digital images or videos. The basic idea of vehicle detection is detecting "blocks," which reflects the position of the vehicle in images or videos
 
+These are the ways/models used for Vehivle Detection-
 * Linear SVM
 * HOG(Histogram of Oriented Gradients) feature extraction
 * Color space conversion
@@ -260,3 +261,5 @@ show_images(car_ch3, car_ch3_features, notcar_ch3, notcar_ch3_features, "Car ch 
 
 
 ![png](./output/output_9_4.png)
+
+Feel free to use this repo.
